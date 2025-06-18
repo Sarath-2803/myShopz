@@ -46,10 +46,10 @@ export default function Home() {
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="mainNavbar">
             <ul className="navbar-nav align-items-center gap-2 gap-lg-3 flex-row flex-lg-row">
-              <li className="nav-item w-100 w-lg-auto mb-2 mb-lg-0">
+              <li className="nav-item w-lg-auto mb-2 mb-lg-0">
                 <a
                   href="/login"
-                  className="btn btn-outline-success px-4 py-2 w-100 w-lg-auto"
+                  className="btn btn-outline-success px-4 py-2 w-lg-auto"
                   style={{
                     borderRadius: "2rem",
                     borderColor: "#25D366",
@@ -63,10 +63,10 @@ export default function Home() {
                   Login
                 </a>
               </li>
-              <li className="nav-item w-100 w-lg-auto">
+              <li className="nav-item w-lg-auto">
                 <a
                   href="/signup"
-                  className="btn btn-success px-4 py-2 w-100 w-lg-auto signup-btn"
+                  className="btn btn-success px-4 py-2 w-lg-auto signup-btn"
                   style={{
                     borderRadius: "2rem",
                     background: "linear-gradient(90deg, #25D366 60%, #128c4b 100%)",
@@ -147,7 +147,7 @@ export default function Home() {
             color: "#fff",
             textDecoration: "underline",
             fontWeight: 700,
-            borderBottom: "2px solid #fff",
+            // borderBottom: "2px solid #fff",
             transition: "color 0.2s, border-bottom 0.2s"
           }}
         >
