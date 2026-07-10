@@ -1,4 +1,4 @@
-# myShop
+# myShopz
 
 myShop is a full-stack shop builder and storefront application. It includes a Node.js/Express backend with PostgreSQL, Sequelize, Passport authentication, and a React/Vite frontend for managing a shop and publishing a public storefront.
 
@@ -6,7 +6,7 @@ myShop is a full-stack shop builder and storefront application. It includes a No
 
 ```text
 myShop/
-  backend/   Express API, authentication, Sequelize models, EJS views
+  backend/   Express API, authentication, Sequelize models
   frontend/  React app built with Vite
 ```
 
@@ -53,7 +53,6 @@ GOOGLE_CLIENT_ID=
 GOOGLE_CLIENT_SECRET=
 GMAIL_USER=
 GMAIL_PASS=
-PG_PASSWORD=
 ```
 
 The backend also uses Sequelize config in `backend/config/config.json`. For local development, review those values and update them if your PostgreSQL setup is different.
